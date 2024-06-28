@@ -575,7 +575,7 @@ footer a {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     padding: 3rem 1rem;
     margin: 1rem auto;
