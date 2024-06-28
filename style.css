@@ -105,7 +105,7 @@ nav {
     align-items: top;
     line-height: 36px;
     font-size: 14px;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(40, 40, 40, 1);
     border-radius: 1rem 1rem 0 0;
     width: 140px;
     color: rgba(255, 255, 255, .6);
@@ -391,7 +391,6 @@ h3, h4, h5, h6 {
 }
 
 .event-ticker {
-    cursor: pointer;
     z-index: 9;
     position: absolute;
     bottom: 4svh;
@@ -419,7 +418,7 @@ h3, h4, h5, h6 {
     transform: rotate(-90deg) translatex(100%);
     bottom: calc(4svh + 100px);
     z-index: 8;
-    text-shadow: 1px 1px 1px black, 1px 1px 2px black, -1px -1px 1px black, -1px -1px 2px black, 0px 0px 3px black, 0px 0px 5px black;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .6), 1px 1px 20px rgba(0, 0, 0, .6), -1px -1px 1px rgba(0, 0, 0, .6), -1px -1px 20px black, 0px 0px 30px black, 0px 0px 50px black;
     right: calc(4svh + 55px);
 }
 
@@ -460,10 +459,6 @@ h3, h4, h5, h6 {
     display: none;
     text-align: center;
     transition: all .25s ease;
-}
-
-.event-ticker:hover span {
-    display: none;
 }
 
 .event-ticker:hover span.event-name {
@@ -699,6 +694,7 @@ details p:not(.promo-kit-wrap p) {
     #nav.open .nav-items {
         width: 100% !important;
         opacity: 1 !important;
+        justify-content: center;
     }
 
     #nav.open .mobileburger {
