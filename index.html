@@ -1,211 +1,189 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buron Blade Night</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="/js/jquery.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id="cookie-banner">
-      <p>
-        Diese Webseite erhebt und speichert keine Daten. Es werden auch keine
-        Cookies gesetzt. Auf dieser Seite seid ihr Anonym!
-      </p>
-      <button onClick="cookiecheck()">Verstanden</button>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buron Blade Night</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="/js/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="cookie-banner">
+    <p>
+      Diese Webseite erhebt und speichert keine Daten. Es werden auch keine
+      Cookies gesetzt. Auf dieser Seite seid ihr Anonym!
+    </p>
+    <button onClick="cookiecheck()">Verstanden</button>
+  </div>
+  <div id="nav">
+    <div class="mobileburger">≡</div>
+    <div class="nav-items">
+      <a href="/index.html">Home</a>
+      |
+      <a href="#faq">FAQ</a>
+      |
+      <a href="#sponsiring">Sponsoring</a>
     </div>
-    <div id="nav">
-      <div class="mobileburger">≡</div>
-      <div class="nav-items">
-        <a href="/index.html">Home</a>
-        |
-        <a href="#faq">FAQ</a>
-        |
-        <a href="#sponsiring">Sponsoring</a>
-      </div>
+  </div>
+  <a href="/index.html">
+    <nav>
+      <img src="./assets/h4h.png" alt="Hockey for Hope Logo" />X
+      <img src="./assets/rotary.png" alt="Rotary Logo" />
+    </nav>
+  </a>
+  <div id="splash">
+    <div class="img-wrapper">
+      <img src="./assets/h4h.png" alt="Hockey for Hope Logo" />X
+      <img src="./assets/rotary.png" alt="Rotary Logo" style="top: 2.5px; position: relative" />
     </div>
-    <a href="/index.html">
-      <nav>
-        <img src="./assets/h4h.png" alt="Hockey for Hope Logo" />X
-        <img src="./assets/rotary.png" alt="Rotary Logo" />
-      </nav>
-    </a>
-    <div id="splash">
-      <div class="img-wrapper">
-        <img src="./assets/h4h.png" alt="Hockey for Hope Logo" />X
-        <img
-          src="./assets/rotary.png"
-          alt="Rotary Logo"
-          style="top: 2.5px; position: relative"
-        />
-      </div>
-      <div id="splash-clock-wrapper">
-        <div class="splash-clock-counter">0</div>
-        <div class="splash-clock-background"></div>
-      </div>
+    <div id="splash-clock-wrapper">
+      <div class="splash-clock-counter">0</div>
+      <div class="splash-clock-background"></div>
     </div>
-    <section id="content">
-      <div id="header-slider" class="full-width">
-        <div
-          class="slider-item"
-          style="background-image: url('./assets/Background-1.jpg')"
-        >
-          <div class="overlay"></div>
-          <div class="header-wrapper">
-            <h2>
-              <span>15 09 2024</span>Buron Blade Night<span
-                >Spendenlauf</span
-              >
-            </h2>
-            <img src="/assets/AC-Image-1.png" alt="Bild von Skater" />
-              <div class="event-header">
-                Buron Blade Night
-                <span>in Kaufbeuren</span>
-              </div>
-              <div class="event-ticker">
-                <div class="event-time-wrap">
-                  <span class="day">15</span><span class="month">09</span>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div class="full-width">
-        <div
-          class="inner-content"
-          style="min-height: 100svh; padding-top: 15svh; width: 100%"
-        >
-          <h2 style="width: 80%; display: block">
-            Hockey for Hope und Rotary KF-Ostallgäu
+  </div>
+  <section id="content">
+    <div id="header-slider" class="full-width">
+      <div class="slider-item" style="background-image: url('./assets/Background-1.jpg')">
+        <div class="overlay"></div>
+        <div class="header-wrapper">
+          <h2>
+            <span>15 09 2024</span>Buron Blade Night<span>Spendenlauf</span>
           </h2>
-          <p>
-            Erleben Sie einen einzigartigen Abend voller Bewegung, Gemeinschaft
-            und Freude bei der Buron Blade Night! Am 15. September 2024 rollen
-            wir auf Inline-Skates durch die malerischen Straßen unserer Stadt,
-            um Spenden für wohltätige Zwecke zu sammeln. Ob Anfänger oder Profi,
-            jeder ist eingeladen, an diesem besonderen Event teilzunehmen.
-            Verkleiden Sie sich, genießen Sie die Musik vom mitfahrenden LKW und
-            feiern Sie mit uns bei der großen Abschlussveranstaltung im
-            Forettle. Lassen Sie uns gemeinsam für den guten Zweck rollen und
-            dabei unvergessliche Momente schaffen. Seien Sie dabei und
-            unterstützen Sie eine gute Sache!
-          </p>
-          <div class="promo-kit-wrap">
-            <div>
-              <div>
-                <h3>ROUTE</h3>
-                <p>
-                  Tänzelfestplatz >>> Buronstraße >>> Mindelheimer Straße >>>
-                  Josef-Landes-Straße >>> Forettle Center
-                </p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h3>TEILNAHME</h3>
-                <p>
-                  Die Teilnahme ist kostenlos, wir freuen uns aber über eine Spende von
-                  10€ je erwachsener Person und 5€ je Kind.
-                </p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h3>GUTER ZWECK</h3>
-                <p>
-                  Sämtliche Erlöse und Spenden gehen an bedürftige Kinder und
-                  Jugendliche. Die Projekte werden noch gesondert vorgestellt.
-                </p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h3>WANN?</h3>
-                <p>Der geplante Termin ist am 15.09.2024</p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h3>OUTFIT</h3>
-                <p>Verkleiden erwünscht. Ideal in Rot oder Gelb.</p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h3>WICHTIG</h3>
-                <p>
-                  Vor dem Zug wird ein LKW für die musikalische Motiviation
-                  fahren. Teilnahme mit Inlineskates und Fahrrad möglich, aus
-                  Sicherheitsgründen jedoch in getrennten Gruppen. Bei
-                  Inlineskates wird dringend dazu geraten entsprechende Schoner
-                  und Helm zu tragen, bei Fahrrädern Helm.
-                </p>
-              </div>
-            </div>
+          <img src="/assets/AC-Image-1.png" alt="Bild von Skater" />
+          <div class="event-header">
+            Buron Blade Night
+            <span>in Kaufbeuren</span>
           </div>
-          <h2>Veranstalter</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
-          <h2>Sponsoren</h2>
-          <p>Werde mit deinem Unternehmen Partner der Buron Blade Night und melde dich bei uns: <a href="mailto:events@hockey-for-hope.org ">events@hockey-for-hope.org</a>  </p>
-          <div class="promo-kit-wrap">
-            <div>
-              <div>
-                <h3>Hier könnte dein Unternehmen stehen</h3>
-                <p>Melde dich als Sponsor unter:<a href="mailto:events@hockey-for-hope.org ">events@hockey-for-hope.org</a></p>
-              </div>
+          <div class="event-ticker">
+            <div class="event-time-wrap">
+              <span class="day">15</span><span class="month">09</span>
             </div>
-            <div>
-              <div>
-                <p>Impredia Design - Alles aus einer Hand</p>
-                <img style="width: 80%" src="./assets/imp.png"/>
-              </div>
-            </div>
-            <div>
-              <div>
-              </div>
-            </div>
-            <div>
-              <div>
-
-              </div>
-            </div>
-            <div>
-              <div>
-
-              </div>
-            </div>
-            <div>
-              <div>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      <div id="bottom-slider" class="full-width">
-        <div
-          class="bottom-slider-item"
-          style="background-image: url('./assets/AC-Background.jpg')"
-        >
-          <div class="overlay"></div>
-          <div class="header-wrapper">
-            <h2 id="sponsiring">Partner werden<span>Buron Blade Night</span></h2>
-            <a href="mailto:events@hockey-for-hope.org"
-              ><button>ANFRAGEN</button></a
-            >
-            <img src="./assets/AC-image-1.png" alt="Inline Skater" />
-          </div>
-        </div>
-      </div>
-      <footer>
-        <div class="footer-grid">
+    </div>
+    <div class="full-width">
+      <div class="inner-content" style="min-height: 100svh; padding-top: 15svh; width: 100%">
+        <h2 style="width: 80%; display: block">
+          Hockey for Hope und Rotary KF-Ostallgäu
+        </h2>
+        <p>
+          Am 15.09. (Ausweichtermin 22.09.) ist es soweit: Die erste Charity Buron Blade Night von Hockey for Hope e. V. und dem Rotary Club Kaufbeuren-Ostallgäu startet.
+          Treffpunkt ist am Tänzelfestplatz wo dann die Tour über die Buronstraße, Mindelheimer Straße, Josef-Landes-Straße bis zur Abschlussparty am Forettle-Parkplatz startet. Voraus fährt ein LKW mit DJ, welcher die Teilnehmer*innen beschallt.
+          Mitfahren kann man in zwei Gruppen: Die erste Gruppe besteht aus Inline-Skatern und, wer nicht skaten kann oder keine Inline-Skates hat, kann in der zweiten Gruppen als Fahrradfahrer teilnehmen.
+          Am Ende erwartet euch noch eine kleine Party auf dem Forettle-Parkplatz. Hierbei werdet ihr durch die Forettle-Gastronomen verköstigt.
+          Die Teilnahme an diesem Spendenlauf ist kostenlos, dennoch möchten wir die Buron Blade Night nutzen um Gelder für Bedürftige zu sammeln. Daher erbitten wir für die Teilnahme eine freiwillige Spende von 10€.
+        </p>
+        <div class="promo-kit-wrap">
           <div>
-            <div
-              class="social-media"
-              style="
+            <div>
+              <h3>ROUTE</h3>
+              <p>
+                Tänzelfestplatz >>> Buronstraße >>> Mindelheimer Straße >>>
+                Josef-Landes-Straße >>> Forettle Center
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>TEILNAHME</h3>
+              <p>
+                Die Teilnahme ist kostenlos, wir freuen uns aber über eine Spende von
+                10€ je erwachsener Person und 5€ je Kind.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>GUTER ZWECK</h3>
+              <p>
+                Sämtliche Erlöse und Spenden gehen an bedürftige Kinder und
+                Jugendliche. Die Projekte werden noch gesondert vorgestellt.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>WANN?</h3>
+              <p>Der geplante Termin ist am 15.09.2024</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>OUTFIT</h3>
+              <p>Verkleiden erwünscht. Ideal in Rot oder Gelb.</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>WICHTIG</h3>
+              <p>
+                Vor dem Zug wird ein LKW für die musikalische Motiviation
+                fahren. Teilnahme mit Inlineskates und Fahrrad möglich, aus
+                Sicherheitsgründen jedoch in getrennten Gruppen. Bei
+                Inlineskates wird dringend dazu geraten entsprechende Schoner
+                und Helm zu tragen, bei Fahrrädern Helm.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2>Veranstalter</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+        <h2>Sponsoren</h2>
+        <p>Zudem suchen wir Sponsoren welche uns unterstützen möchten, eine neue Veranstaltung, die Unterhaltung und Charity vereint, in Kaufbeuren zu etablieren. Falls ihr Interesse habt, meldet euch doch via <a href="mailto:helfen@bladenight.org ">helfen@bladenight.org</a> </p>
+        <div class="promo-kit-wrap">
+          <div>
+            <div>
+              <h3>Hier könnte dein Unternehmen stehen</h3>
+              <p>Melde dich als Sponsor unter:<a href="mailto:helfen@bladenight.org ">helfen@bladenight.org</a></p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Impredia Design - Alles aus einer Hand</p>
+              <img style="width: 80%" src="./assets/imp.png" />
+            </div>
+          </div>
+          <div>
+            <div>
+            </div>
+          </div>
+          <div>
+            <div>
+
+            </div>
+          </div>
+          <div>
+            <div>
+
+            </div>
+          </div>
+          <div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="bottom-slider" class="full-width">
+      <div class="bottom-slider-item" style="background-image: url('./assets/AC-Background.jpg')">
+        <div class="overlay"></div>
+        <div class="header-wrapper">
+          <h2 id="sponsiring">Partner werden<span>Buron Blade Night</span></h2>
+          <a href="mailto:helfen@bladenight.org"><button>ANFRAGEN</button></a>
+          <img src="./assets/AC-Image-1.png" alt="Inline Skater" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <div class="social-media" style="
                 filter: invert(1);
                 width: 200px;
                 display: grid;
@@ -214,50 +192,42 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
                 margin: auto;
                 margin-bottom: 2rem;
                 align-items: center;
-              "
-            >
-              
-              <div class="instagram">
-                <a
-                  href="https://www.instagram.com/glory_bizarre/"
-                  target="_blank"
-                  ><img src="/socials/insta.png"
-                /></a>
-              </div>
-              <div class="facebook">
-                <a
-                  href="https://www.facebook.com/andrew.clark.5036459"
-                  target="_blank"
-                  ><img src="/socials/facebook.png"
-                /></a>
-              </div>
-              
+              ">
+
+            <div class="instagram">
+              <a href="https://www.instagram.com/glory_bizarre/" target="_blank"><img src="/socials/insta.png" /></a>
             </div>
-          </div>
-          <div>
-            <strong>Buron Blade Night</strong><br />
-            15.09.2024 <br />87600 Kaufbeuren
+            <div class="facebook">
+              <a href="https://www.facebook.com/andrew.clark.5036459" target="_blank"><img src="/socials/facebook.png" /></a>
+            </div>
+
           </div>
         </div>
         <div>
-          <a href="/impressum.html">Impressum</a> |
-          <a href="/datenschutz.html">Datenschutz</a><br />
-          <p style="margin: 1rem auto; font-size: 12px">
-            @2024 copyright by Hockey for Hope | design & development by
-            <a href="https://www.impredia.de">Impredia Werbeagentur</a>
-          </p>
+          <strong>Buron Blade Night</strong><br />
+          15.09.2024 <br />87600 Kaufbeuren
         </div>
-      </footer>
-    </section>
-  </body>
-  <script src="/js/functions.js" type="text/javascript"></script>
-  <script>
-      $('a[href^=#]').click(function(e){
-        e.preventDefault();
-        var href = $(this).attr('href');
-        $('#content').animate({ 
-            scrollTop:$(href).offset().top
-        },'slow');
-    });
-    </script>
+      </div>
+      <div>
+        <a href="/impressum.html">Impressum</a> |
+        <a href="/datenschutz.html">Datenschutz</a><br />
+        <p style="margin: 1rem auto; font-size: 12px">
+          @2024 copyright by Hockey for Hope | design & development by
+          <a href="https://www.impredia.de">Impredia Werbeagentur</a>
+        </p>
+      </div>
+    </footer>
+  </section>
+</body>
+<script src="/js/functions.js" type="text/javascript"></script>
+<script>
+  $('a[href^=#]').click(function (e) {
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('#content').animate({
+      scrollTop: $(href).offset().top
+    }, 'slow');
+  });
+</script>
+
 </html>
