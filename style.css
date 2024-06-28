@@ -99,13 +99,13 @@ nav {
     left: 4svh;
     display: grid;
     grid-template-columns: 36px 20px 36px;
-    z-index: 20;
+    z-index: 9999999;
     justify-content: center;
     text-align: center;
     align-items: top;
     line-height: 36px;
     font-size: 14px;
-    background-color: rgba(40, 40, 40, 1);
+    background-color: #050505;
     border-radius: 1rem 1rem 0 0;
     width: 140px;
     color: rgba(255, 255, 255, .6);
@@ -484,9 +484,11 @@ h3, h4, h5, h6 {
 }
 
 .promo-kit-wrap>div {
+    position: relative;
     width: calc(100% - 2rem);
     min-height: 100px;
-    background-color: #222;
+    background-color: #860000;
+    background-image: linear-gradient(45deg, #860000, #e9c601);
     border-radius: .5rem;
     display: flex;
     text-align: center;
@@ -494,8 +496,29 @@ h3, h4, h5, h6 {
     align-items: center;
     cursor: pointer;
     padding: 1rem;
-    opacity: .7;
+    opacity: .9;
+    box-shadow: 0 0 0px #e9c601;
     transition: all .2s ease;
+}
+
+.promo-kit-wrap>div:before {
+    background-color: #222;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    position: absolute;
+    z-index: 0;
+    top: 2px;
+    left: 2px;
+    border-radius: .5rem;
+    content: "";
+    opacity: 1;
+    display: block;
+    transition: all .2s ease;
+}
+
+.promo-kit-wrap>div>* {
+    position: relative;
+    z-index: 1;
 }
 
 .promo-kit-wrap p {
@@ -505,7 +528,20 @@ h3, h4, h5, h6 {
 
 .promo-kit-wrap>div:hover {
     transform: scale(1.03);
-    opacity: .9;
+    opacity: 1;
+}
+
+.promo-kit-wrap>div:hover {
+    background-size: 200% 200%;
+    background-position: top right;
+    box-shadow: 0 0 50px -20px #e9c601;
+}
+
+.promo-kit-wrap>div:hover::before {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    top: 5px;
+    left: 5px;
 }
 
 video {
